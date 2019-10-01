@@ -1,0 +1,14 @@
+html {
+    font-family: "Raleway", sans-serif;
+    min-width: 480px;
+}
+
+body {
+    padding:0px;
+}
+
+header {
+    background-image: url(Images/Splash%20Background.jpg);
+    height: 1080px;
+}
+
