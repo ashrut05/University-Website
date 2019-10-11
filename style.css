@@ -1,26 +1,34 @@
-html {
+html, body {
     font-family: "Raleway", sans-serif;
     min-width: 480px;
+    height: 100%;
 }
 
-body {
-    padding:0px;
+#mainBody {
+    height: 100%;
 }
 
 header {
-    font-family: "Raleway", sans-serif;
-    background-image: url(Images/Splash%20Background.jpg);
-    height: 1080px;
-    width: auto;
+    background: rgb(10,156,232);
+    background: -moz-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(Images/Splash%20Background.jpg);
+    background: -webkit-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(Images/Splash%20Background.jpg);
+    background: linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(Images/Splash%20Background.jpg);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a9ce8",endColorstr="#8d29f1",GradientType=1);
+    color:#fff;
+    height: 94%;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    padding-top: 1rem;
 }
 
-ul {
+#mainMenu {
+    float: right;
+    font-size: 1.3rem;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 19px;
+    padding-top: 1rem;
 }
 
 li {
@@ -28,7 +36,7 @@ li {
 }
 
 a {
-    color: #000;
+    color: #fff;
     padding: 5px 15px;
 }
 
@@ -37,7 +45,59 @@ a:hover {
     text-decoration: none;
     background-color: #000;
 }
+#searchButton {
+    height: 30px;
+}
 
 #menu {
-   align-content: space-around;
+    align-content: space-around;
+    padding-left: 0px;
+}
+
+#largeUntitled {
+    font-size: 7rem;
+    padding: 6rem 0rem 0rem 3rem;
+}
+
+#largeUniversity {
+    font-size: 7rem;
+    padding: 0rem 0rem 1.5rem 3rem;
+}
+
+#NAACGradeHeader {
+    font-size: 3rem;
+    padding-left: 3rem;
+    padding-bottom:2rem;
+}
+
+#exploreButton {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+#exploreButton a {
+    color: #fff;
+    padding: 20px 70px;
+    font-size: 1.9rem;
+    border: solid 3px #fff;
+}
+
+#headerBottom {
+    background-color: #fff;
+    font-size: 1.3rem;
+    justify-content: space-around;
+    border-bottom: solid 1px;
+}
+
+#headerBottom a {
+    color: #000;
+}
+
+#headerBottom a:hover {
+    color: #fff;
+}
+
+#bottomOptions {
+    padding-top: 10px;
 }
