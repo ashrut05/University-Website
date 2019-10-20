@@ -23,12 +23,15 @@ h1 {
     padding-top: 1rem;
 }
 
-#mainMenu {
-    float: right;
-    font-size: 1.3rem;
-    list-style: none;
-    margin-top: 19px;
-    padding-top: 1rem;
+h2 {
+    font-size: 2.7rem;
+    background: linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -moz-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%); 
+}
+
+h3 {
+    font-size: 12rem;
 }
 
 li {
@@ -45,6 +48,22 @@ a:hover {
     text-decoration: none;
     background-color: #000;
 }
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    padding: 2rem 4rem 0rem 4rem;
+}
+
+#mainMenu {
+    float: right;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-top: 19px;
+    padding-top: 1rem;
+}
+
 #searchButton {
     height: 30px;
 }
@@ -100,4 +119,49 @@ a:hover {
 
 #bottomOptions {
     padding-top: 10px;
+}
+
+#aboutSection {
+    padding-top: 2rem;
+    margin-left: 4rem;
+}
+
+#readMoreButton {
+    margin-left: 34%;
+}
+
+#readMoreButton a {
+    color: #000;
+    padding: 20px 70px;
+    font-size: 1.9rem;
+    border: solid 3px #000;
+}
+
+#readMoreButton a:hover {
+    color: #fff;
+    background: linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -moz-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -moz-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    border: solid 3px #fff;
+}
+
+#unuByNumbers {
+    padding-top: 2rem;
+    padding-left: 4rem;
+}
+
+#highlights {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media (max-width:932px) {
+    #mainMenu {
+        display: none;
+    }
+    
+    #aboutSectionResponsive {
+        display: none;
+    }
 }
