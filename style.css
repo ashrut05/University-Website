@@ -1,6 +1,5 @@
 html, body {
     font-family: "Raleway", sans-serif;
-    min-width: 480px;
     background-color: #000;
     color: #fff;
 }
@@ -23,9 +22,6 @@ h1 {
 
 h2 {
     font-size: 2.7rem;
-    background: linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
-    background: -moz-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%); 
     color: #fff;
     margin-bottom: 2rem;
 }
@@ -63,16 +59,22 @@ p {
     display: none;
 }
 
+.headingBackground {
+    background: linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -moz-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+}
+
+#navBar {
+    position: fixed;
+}
+
 #mainMenu {
     float: right;
     font-size: 1.3rem;
     list-style: none;
     margin-top: 19px;
     padding-top: 1rem;
-}
-
-#searchButton {
-    height: 30px;
 }
 
 #menu {
@@ -154,8 +156,9 @@ p {
     font-size: 2rem;
     position: relative;
 }
+
 #unuByNumbers h2 {
-    text-align: center;
+
 }
 
 #unuByNumbers .col {
@@ -186,6 +189,77 @@ p {
     height: 100%;
 }
 
+#gallery {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#gallery h4 {
+    margin-top: 120px;
+}
+
+.gallerySections {
+    transform: skewX(-20deg);
+    width: 234px;
+    height: 500px;
+    overflow: hidden;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.gallerySections img{
+    transform: skewX(20deg);
+}
+
+/* Responsive Gallery */
+#galleryMobile {
+    display: none;
+    padding-top: 4rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#galleryInside {
+    width: 100%;
+}
+
+.galleryBox {
+    padding-bottom: 2rem;
+}
+
+.galleryBox img {
+        width: 100%;
+        height: 100%;
+}
+
+@media (max-width:1832px) {
+    .gallerySections {
+    width: 180px;
+    height: 400px; 
+    }
+}
+
+@media (max-width:1425px) {
+    .gallerySections {
+    width: 130px;
+    height: 350px; 
+    }
+}
+
+@media (max-width:1050px) {
+    #galleryMobile {
+        display: block;
+    }
+    
+    #gallery {
+        display: none;
+    }
+}
+
 @media (max-width:932px) {
     #mainMenu {
         display: none;
@@ -204,6 +278,12 @@ p {
     }
     
     .departmentBox img{
+        width: 50%;
+        height: 100%;
+        margin-left: 22%; /* Have no idea why this is required */
+    }
+    
+    .galleryBox img{
         width: 50%;
         height: 100%;
         margin-left: 22%; /* Have no idea why this is required */
