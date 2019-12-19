@@ -34,6 +34,10 @@ h4 {
     font-size: 6rem;
 }
 
+h5 {
+    font-size: 2rem;
+}
+
 li {
     display: inline;
 }
@@ -236,6 +240,21 @@ p {
         height: 100%;
 }
 
+#footer {
+    margin-top: 3rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#footer p {
+    font-size: 1rem;
+    padding: 0px;
+}
+
+#footerSocial img {
+    height: 30px;
+}
+
 @media (max-width:1832px) {
     .gallerySections {
     width: 180px;
@@ -247,6 +266,16 @@ p {
     .gallerySections {
     width: 130px;
     height: 350px; 
+    }
+    
+    #footer .responsiveSplitter{
+        display: block;
+    }
+    
+    #footerAddress, #footerMap, #footerSocial{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
     }
 }
 
