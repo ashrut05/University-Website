@@ -159,10 +159,9 @@ p {
     margin-right: 10%;
     font-size: 2rem;
     position: relative;
-}
-
-#unuByNumbers h2 {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #unuByNumbers .col {
@@ -185,7 +184,8 @@ p {
 }
 
 .departmentBox {
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 .departmentBox img{
@@ -193,7 +193,14 @@ p {
     height: 100%;
 }
 
+.departmentBox img:hover{
+    transform: scale(1.2);
+    transition: transform .3s ease;
+}
+
 #gallery {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -219,6 +226,11 @@ p {
     transform: skewX(20deg);
 }
 
+.gallerySections:hover{
+    transform: scale(1.2) skewX(-20deg);
+    transition: transform .3s ease;
+}
+
 /* Responsive Gallery */
 #galleryMobile {
     display: none;
@@ -242,8 +254,10 @@ p {
 
 #footer {
     margin-top: 3rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    border-top: solid 1px #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #footer p {
@@ -251,8 +265,22 @@ p {
     padding: 0px;
 }
 
+#footerAddress {
+    padding-top: 2rem;
+    margin-left: 10%;
+}
+
+#footerMap {
+    padding-top: 2rem;
+}
+
 #footerSocial img {
-    height: 30px;
+    height: 2rem;
+}
+
+#footerSocial img:hover {
+    transform: scale(1.3);
+    transition: transform .4s ease;
 }
 
 @media (max-width:1832px) {
@@ -268,15 +296,11 @@ p {
     height: 350px; 
     }
     
-    #footer .responsiveSplitter{
-        display: block;
+    #footerAddress {
+    padding-top: 2rem;
+    margin-left: 0%;
     }
     
-    #footerAddress, #footerMap, #footerSocial{
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-    }
 }
 
 @media (max-width:1050px) {
@@ -286,6 +310,16 @@ p {
     
     #gallery {
         display: none;
+    }
+    
+    #footer .responsiveSplitter{
+        display: block;
+    }
+    
+    #footerAddress, #footerMap, #footerSocial{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
     }
 }
 
