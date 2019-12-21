@@ -13,9 +13,13 @@
         
         <!--CSS-->
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="hamburger.css" type="text/css">
         
         <!--Fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        
+        <!--Scripts-->
+        <script src="hamburger.js"></script>
     </head>
     
     <body>
@@ -32,7 +36,7 @@
                     </div>
                     
                     <!--Navbar Menu Starts-->
-                    <div class="col" id="menu">
+                    <div class="col" id="menuBar">
                         <ul id="mainMenu">
                             <li><a href="#">Students</a></li>
                             <li><a href="#">Departments</a></li>
@@ -43,6 +47,24 @@
                     </div>
                     <!--Navbar Menu Ends-->
                 </div>
+                    <!--Responsive Hamburger Menu Starts-->
+                    <div id="menu-bar">
+                        <div id="menu" onclick="onClickMenu()">
+                            <div id="bar1" class="bar"></div>
+                            <div id="bar2" class="bar"></div>
+                            <div id="bar3" class="bar"></div>
+                        </div> 
+                
+                        <ul class="nav" id="nav">
+                            <li><a href = "#">Students</a></li>
+                            <li><a href = "#">Departments</a></li>
+                            <li><a href = "#">Media</a></li>
+                            <li><a href = "#">Administration</a></li>
+                            <li><a href = "#">Contact Us</a></li>
+                    </ul>
+                    </div>
+                    <div class="menu-bg" id="menu-bg"></div>
+                    <!--Responsive Hamburger Menu Ends-->
                 <!--Top Navbar Ends-->
                 
                 <div class="row" id="mainTitle">

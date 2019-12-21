@@ -38,7 +38,7 @@ h5 {
     font-size: 2rem;
 }
 
-li {
+.row li {
     display: inline;
 }
 
@@ -81,7 +81,7 @@ p {
     padding-top: 1rem;
 }
 
-#menu {
+#menuBar {
     align-content: space-around;
     padding-left: 0px;
 }
