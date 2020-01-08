@@ -9,17 +9,22 @@
         
         <!--Stylesheets-->
         <!--Bootstrap-->
-        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.css">
         
         <!--CSS-->
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" href="hamburger.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../CSS/common.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/hamburger.css" >
+		<link rel="stylesheet" type="text/css" href="../CSS/departments.css" >
+		<link rel="stylesheet" type="text/css" href="../CSS/home.css" >
+		<link rel="stylesheet" type="text/css" href="../CSS/footer.css" >
         
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
         
         <!--Scripts-->
-        <script src="hamburger.js"></script>
+        <script src="../JS/hamburger.js"></script>
+        <script src="../JS/footer.js"></script>
+        <script src="../JS/home.js"></script>
     </head>
     
     <body>
@@ -38,16 +43,17 @@
                     <!--Navbar Menu Starts-->
                     <div class="col" id="menuBar">
                         <ul id="mainMenu">
-                            <li><a href="#">Students</a></li>
-                            <li><a href="#">Departments</a></li>
-                            <li><a href="#">Media</a></li>
-                            <li><a href="#">Administration</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="students.html">Students</a></li>
+                            <li><a href="departments.html">Departments</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li><a href="fees.html">Fees</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
                         </ul>
                     </div>
                     <!--Navbar Menu Ends-->
                 </div>
                     <!--Responsive Hamburger Menu Starts-->
+                <div id="responsiveMenu" class="col-12">
                     <div id="menu-bar">
                         <div id="menu" onclick="onClickMenu()">
                             <div id="bar1" class="bar"></div>
@@ -56,26 +62,27 @@
                         </div> 
                 
                         <ul class="nav" id="nav">
-                            <li><a href = "#">Students</a></li>
-                            <li><a href = "#">Departments</a></li>
-                            <li><a href = "#">Media</a></li>
-                            <li><a href = "#">Administration</a></li>
-                            <li><a href = "#">Contact Us</a></li>
-                    </ul>
+                            <li><a href="students.html">Students</a></li>
+                            <li><a href="departments.html">Departments</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li><a href="fees.html">Fees</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                        </ul>
                     </div>
                     <div class="menu-bg" id="menu-bg"></div>
+                    </div>
                     <!--Responsive Hamburger Menu Ends-->
                 <!--Top Navbar Ends-->
                 
                 <div class="row" id="mainTitle">
-                    <div class="row" id="largeUniversityName">
+                    <div class="row" id="largeTitle">
                         Untitled University
                     </div>
-                    <div class="row" id="NAACGradeHeader">
+                    <div class="row" id="subTitle">
                         NAAC Accredited 'A' Grade University
                     </div>
-                    <div class="row" id="exploreButton">
-                        <a href="#">Explore</a> 
+                    <div class="row" id="headerButton">
+                        <a onclick="scrollToAbout()">Explore</a> 
                     </div>
                 </div>
             </header>
@@ -89,13 +96,13 @@
                 <div id="aboutSectionResponsive" class="row">
                     <p>Condimentum vitae sapien pellentesque habitant morbi tristique. Tempus quam pellentesque nec nam aliquam sem et tortor. Integer feugiat scelerisque varius morbi enim nunc. Urna et pharetra pharetra massa massa ultricies mi. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Dictum at tempor commodo ullamcorper a lacus.</p>
                 </div>
-                 <div class="row" id="readMoreButton">
-                    <a href="#">Read More</a> 
+                 <div class="row" id="defaultButton">
+                    <a href="aboutUs.html">Read More</a> 
                 </div>
             </div>
             
             <div id="unuByNumbers" class="row">
-                    <h2>UNU By &nbsp;</h2><!-- TODO Center this -->
+                    <h2>UNU By &nbsp;</h2>
                     <h2 class="headingBackground">Numbers</h2>
                 <div class="row" id="highlights">
                     <div class="col"><h3>4:1</h3>Student Teacher Ratio</div>
@@ -113,15 +120,15 @@
                 <h2 class="headingBackground">ments</h2>
                 <div class="row" id="departmentInside">
                     <div class="col departmentBox">
-                       <a href="#"><img src="Images/Science.jpg"></a>
+                       <a href="#"><img src="../Images/Departments/Science.jpg"></a>
                     </div>
                     <div class="w-100 responsiveSplitter"></div>
                     <div class="col departmentBox">
-                        <a href="#"><img src="Images/Commerce.jpg"></a>
+                        <a href="#"><img src="../Images/Departments/Commerce.jpg"></a>
                     </div>
                     <div class="w-100 responsiveSplitter"></div>
                     <div class="col departmentBox">
-                        <a href="#"><img src="Images/Humanities.jpg"></a>
+                        <a href="#"><img src="../Images/Departments/Humanities.jpg"></a>
                     </div>
                 </div>
             </div>
@@ -133,19 +140,19 @@
                 <div class="col-md-6">
                     <div class="gallerySections">
                         <a href="#">
-                            <img src="Images/Images.png">
+                            <img src="../Images/Gallery/GalleryImages.png">
                         </a>
                     </div>
                     
                     <div class="gallerySections">
                         <a href="#">
-                            <img src="Images/GalleryVideos.png">
+                            <img src="../Images/Gallery/GalleryVideos.png">
                         </a>
                     </div>
                 
                     <div class="gallerySections">
                         <a href="#">
-                            <img src="Images/GalleryTour.png">
+                            <img src="../Images/Gallery/GalleryTour.png">
                         </a>
                     </div>
                 </div>
@@ -155,19 +162,20 @@
                 <h2>Gallery</h2>
                 <div class="row" id="galleryInside">
                     <div class="col galleryBox">
-                       <a href="#"><img src="Images/ImagesResponsive.jpg"></a>
+                       <a href="media.html"><img src="../Images/Gallery/ImagesResponsive.jpg"></a>
                     </div>
                     <div class="w-100 responsiveSplitter"></div>
                     <div class="col galleryBox">
-                        <a href="#"><img src="Images/VideosResponsive.png"></a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../Images/Gallery/VideosResponsive.png"></a>
                     </div>
                     <div class="w-100 responsiveSplitter"></div>
                     <div class="col galleryBox">
-                        <a href="#"><img src="Images/VirtualTourResponsive.jpg"></a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../Images/Gallery/VirtualTourResponsive.jpg"></a>
                     </div>
                 </div>
             </div>
             
+			<!--Footer Starts-->
             <div id="footer" class="row">
                 <div id="footerAddress" class="col">
                     <h5>Address</h5>
@@ -181,21 +189,29 @@
                 </div>
                 <div class="w-100 responsiveSplitter"></div>
                 <div id="footerSocial" class="col">
-                    <a href="#">
-                        <img src="SocialMedia/Normal/Facebook.png">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img id="Facebook" src="../Images/SocialMedia/Normal/Facebook.png" onmouseover="colorIcon('Facebook')" onmouseleave="restoreIcon('Facebook')">
                     </a>
-                    <a href="#">
-                        <img src="SocialMedia/Normal/Twitter.png">
+                    <a href="https://twitter.com/ashrut05" target="_blank">
+                        <img id="Twitter" src="../Images/SocialMedia/Normal/Twitter.png" onmouseover="colorIcon('Twitter')" onmouseleave="restoreIcon('Twitter')">
                     </a>
-                    <a href="#">
-                        <img src="SocialMedia/Normal/linkedin.png">
+                    <a href="https://www.linkedin.com/in/ashrut05/" target="_blank">
+                        <img id="linkedin" src="../Images/SocialMedia/Normal/linkedin.png" onmouseover="colorIcon('linkedin')" onmouseleave="restoreIcon('linkedin')">
                     </a>
-                    <a href="#">
-                        <img src="SocialMedia/Normal/Youtube.png">
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img id="Youtube" src="../Images/SocialMedia/Normal/Youtube.png" onmouseover="colorIcon('Youtube')" onmouseleave="restoreIcon('Youtube')">
+                    </a>
+                    <a href="https://www.instagram.com/ashrut05" target="_blank">
+                        <img id="Instagram" src="../Images/SocialMedia/Normal/Instagram.png" onmouseover="colorIcon('Instagram')" onmouseleave="restoreIcon('Instagram')">
                     </a>
                 </div>
-            </div>         
+            </div>    
+			<!--Footer Ends-->
         </div>
         <!--Main Body Container Ends-->
     </body>
 </html>
+
+<!--TODO Change Header Images-->
+<!-- TODO Notification Section -->    
+<!-- TODO Change UNU Header Link href -->   

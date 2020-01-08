@@ -1,0 +1,24 @@
+#contactForm form {
+    min-width: 200px;
+    margin-left: 30%;
+    margin-right: 30%;
+    align-content: center;
+    justify-content: center;
+}
+
+#contactForm input {
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    margin: 0.5rem 0rem 1.5rem 0rem;
+
+}
+
+#contactForm textarea {
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    background-color: #000;    
+    margin: 0.5rem 0rem 1.5rem 0rem;
+}

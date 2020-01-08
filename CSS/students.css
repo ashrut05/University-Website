@@ -1,0 +1,58 @@
+header {
+    min-height: 500px;
+    background: rgb(10,156,232);
+    background: -moz-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/StudentsBackground.jpg);
+    background: -webkit-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/StudentsBackground.jpg);
+    background: linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/StudentsBackground.jpg);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a9ce8",endColorstr="#8d29f1",GradientType=1);
+    color:#fff;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#row1, #row2 {
+    background-color: #CFCFCF;
+    color: #000;
+}
+
+#row1 img, #row2 img{
+    height: 100px;
+    width: 100px;
+    margin-top: 2rem;
+}
+
+#reviews {
+    margin-top: 4rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#reviews h2 {
+    margin-bottom: 0;
+    font-size: 2rem;
+    color: #000;
+}
+
+#reviews h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+#reviewsInside {
+    width: 100%;
+}
+
+.reviewBox {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+@media (max-width:1300px) {
+    .responsiveSplitter{
+        display: block
+    }
+}

@@ -1,0 +1,31 @@
+#media img {
+	width: 30rem;
+	padding: 1rem;
+	filter: grayscale(100%);
+}
+
+#media img:hover {
+	filter: grayscale(0%);
+	transition: transform .3s ease;
+	transform: scale(1.1)
+}
+
+#media {
+    padding-top: 4rem;
+    margin-left: 10%;
+    margin-right: 10%;
+	text-align: center;
+	justify-content: center;
+}
+
+@media (max-width:1200px) {
+	#media img {
+		width: 20rem;
+	}
+}
+
+@media (max-width:800px) {
+	#media img {
+		width: 15rem;
+	}
+}

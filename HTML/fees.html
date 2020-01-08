@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Untitled University Website</title>
+        
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!--Stylesheets-->
+        <!--Bootstrap-->
+        <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.css">
+        
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="../CSS/common.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/hamburger.css" >
+		<link rel="stylesheet" type="text/css" href="../CSS/fees.css" >
+		<link rel="stylesheet" type="text/css" href="../CSS/footer.css" >
+        
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        
+        <!--Scripts-->
+        <script src="../JS/hamburger.js"></script>
+        <script src="../JS/footer.js"></script>
+		<script src="../JS/fees.js"></script>
+    </head>
+    
+    <body>
+        <!--Main Body Container Starts-->
+        <div class="container-fluid" id="mainBody">
+            
+            <!--Banner Area Starts-->
+            <header id="welcomeBanner">
+                
+                <!--Top Navbar Starts-->
+                <div class="row" id="navBar">
+                    <div class="col-2">
+                        <h1><a href="index.html">UNU</a></h1>
+                    </div>
+                    
+                    <!--Navbar Menu Starts-->
+                    <div class="col" id="menuBar">
+                        <ul id="mainMenu">
+                            <li><a href="students.html">Students</a></li>
+                            <li><a href="departments.html">Departments</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li><a href="fees.html">Fees</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!--Navbar Menu Ends-->
+                </div>
+                    <!--Responsive Hamburger Menu Starts-->
+                <div id="responsiveMenu" class="col-12">
+                    <div id="menu-bar">
+                        <div id="menu" onclick="onClickMenu()">
+                            <div id="bar1" class="bar"></div>
+                            <div id="bar2" class="bar"></div>
+                            <div id="bar3" class="bar"></div>
+                        </div> 
+                
+                        <ul class="nav" id="nav">
+                            <li><a href="students.html">Students</a></li>
+                            <li><a href="departments.html">Departments</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li><a href="fees.html">Fees</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-bg" id="menu-bg"></div>
+                    </div>
+                    <!--Responsive Hamburger Menu Ends-->
+                <!--Top Navbar Ends-->
+                
+                <div class="row" id="mainTitle">
+                    <div class="row" id="largeTitle">
+                        Fees
+                    </div>
+                </div>
+            </header>
+            <!--Banner Area Ends-->
+            <!--Domestic Fee Table Begins-->
+            <div id="feeTable" class="row">
+            <h2>Domestic Fees</h2>
+            <input id="domesticButton" type ="button" value= "+" onclick="showDiv('domesticTable', 'domesticButton')">
+            <table id="domesticTable">
+               <tr>
+                   <th>Description</th>
+                   <th>Fall</th>
+                   <th>Winter</th>
+                </tr>
+                <tr>
+                    <td>Full-time Program Tuition</td>
+                    <td>$1348.00</td>
+                    <td>$1348.00</td>
+                </tr>
+                <tr>
+                    <td>Technology Enhancement Fee</td>
+                    <td>$135.00</td>
+                    <td>$135.00</td>
+                </tr>
+                <tr>
+                    <td>Health Plan Fee</td>
+                    <td>$295.00</td>
+                    <td>$0.00</td>
+                </tr>
+                <tr>
+                    <td>Legal Protection</td>
+                    <td>$28.00</td>
+                    <td>$0.00</td>
+                </tr>
+                <tr>
+                    <td>Capital Development Fee</td>
+                    <td>$48.00</td>
+                    <td>$48.00</td>
+                </tr>
+                <tr>
+                    <td>Advocacy Fee</td>
+                    <td>$12.00</td>
+                    <td>$12.00</td>
+                </tr>
+                <tr>
+                    <td>Event Fee</td>
+                    <td>$40.00</td>
+                    <td>$40.00</td>
+                </tr>
+                <tr>
+                    <td>Student Clubs</td>
+                    <td>$10.00</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>Locker Fee</td>
+                    <td>$5.00</td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td>Alumni Services</td>
+                    <td>$5.00</td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td>Student Spaces</td>
+                    <td>$10.00</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>Graduation fee</td>
+                    <td>$15.00</td>
+                    <td>$15.00</td>
+                </tr>
+                <tr>
+                    <td>Academic Support Fee</td>
+                    <td>$18.00</td>
+                    <td>$18.00</td>
+                </tr>
+                <tr>
+                    <td>Health and Wellness Fee</td>
+                    <td>$20.00</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Career Services Fee</td>
+                    <td>$10.00</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <th>Session Total</th>
+                    <th>$1999.00</th>
+                    <th>$1676.00</th>
+                </tr>
+                <tr>
+                    <th>Year Total</th>
+                    <th></th>
+                    <th>$3352.00</th>
+                </tr>   
+            </table>
+            </div>
+            <!--Domestic Fee Table Ends-->
+            
+            <!--International Fee Table Begins-->
+            <div id="feeTable" class="row">
+            <h2>International Fees</h2>
+            <input id="internationalButton" type ="button" value= "+" onclick="showDiv('internationalTable', 'internationalButton')">
+            <table id="internationalTable">
+               <tr>
+                   <th>Description</th>
+                   <th>Fall</th>
+                   <th>Winter</th>
+                </tr>
+                <tr>
+                    <td>Full-time Program Tuition</td>
+                    <td>$6250.00</td>
+                    <td>$6250.00</td>
+                </tr>
+                <tr>
+                    <td>Technology Enhancement Fee</td>
+                    <td>$135.00</td>
+                    <td>$135.00</td>
+                </tr>
+                <tr>
+                    <td>Health Plan Fee</td>
+                    <td>$295.00</td>
+                    <td>$0.00</td>
+                </tr>
+                <tr>
+                    <td>Legal Protection</td>
+                    <td>$28.00</td>
+                    <td>$0.00</td>
+                </tr>
+                <tr>
+                    <td>Capital Development Fee</td>
+                    <td>$48.00</td>
+                    <td>$48.00</td>
+                </tr>
+                <tr>
+                    <td>Advocacy Fee</td>
+                    <td>$12.00</td>
+                    <td>$12.00</td>
+                </tr>
+                <tr>
+                    <td>Event Fee</td>
+                    <td>$40.00</td>
+                    <td>$40.00</td>
+                </tr>
+                <tr>
+                    <td>Student Clubs</td>
+                    <td>$3.00</td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td>Locker Fee</td>
+                    <td>$5.00</td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td>Alumni Services</td>
+                    <td>$5.00</td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td>Student Spaces</td>
+                    <td>$10.00</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>Graduation fee</td>
+                    <td>$15.00</td>
+                    <td>$15.00</td>
+                </tr>
+                <tr>
+                    <td>Academic Support Fee</td>
+                    <td>$18.00</td>
+                    <td>$18.00</td>
+                </tr>
+                <tr>
+                    <td>Health and Wellness Fee</td>
+                    <td>$20.00</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Career Services Fee</td>
+                    <td>$10.00</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <th>Session Total</th>
+                    <th>$6894.00</th>
+                    <th>$6571.00</th>
+                </tr>
+                <tr>
+                    <th>Year Total</th>
+                    <th></th>
+                    <th>$13142.00</th>
+                </tr>   
+            </table>
+            </div>
+            <!--International Fee Table Ends-->
+            
+			<!--Footer Starts-->
+            <div id="footer" class="row">
+                <div id="footerAddress" class="col">
+                    <h5>Address</h5>
+                    <p>Untitled University<br>
+                    Atlantis ABC-123, Metropolis, Canada<br>
+                    E-mail: contactus@unu.com</p>
+                </div>
+                <div class="w-100 responsiveSplitter"></div>
+                <div id="footerMap" class="col">
+                        <iframe width="450" height="180" id="gmap_canvas" src="https://maps.google.com/maps?q=Ontario&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+                <div class="w-100 responsiveSplitter"></div>
+                <div id="footerSocial" class="col">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img id="Facebook" src="../Images/SocialMedia/Normal/Facebook.png" onmouseover="colorIcon('Facebook')" onmouseleave="restoreIcon('Facebook')">
+                    </a>
+                    <a href="https://twitter.com/ashrut05" target="_blank">
+                        <img id="Twitter" src="../Images/SocialMedia/Normal/Twitter.png" onmouseover="colorIcon('Twitter')" onmouseleave="restoreIcon('Twitter')">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ashrut05/" target="_blank">
+                        <img id="linkedin" src="../Images/SocialMedia/Normal/linkedin.png" onmouseover="colorIcon('linkedin')" onmouseleave="restoreIcon('linkedin')">
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img id="Youtube" src="../Images/SocialMedia/Normal/Youtube.png" onmouseover="colorIcon('Youtube')" onmouseleave="restoreIcon('Youtube')">
+                    </a>
+                    <a href="https://www.instagram.com/ashrut05" target="_blank">
+                        <img id="Instagram" src="../Images/SocialMedia/Normal/Instagram.png" onmouseover="colorIcon('Instagram')" onmouseleave="restoreIcon('Instagram')">
+                    </a>
+                </div>
+            </div>    
+			<!--Footer Ends-->
+        </div>
+    </body>

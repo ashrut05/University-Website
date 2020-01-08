@@ -1,0 +1,6 @@
+header {
+	background: rgb(10,156,232);
+    background: -moz-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/aboutUsBackground.jpg);
+    background: -webkit-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/aboutUsBackground.jpg);
+    background: linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/aboutUsBackground.jpg);
+}

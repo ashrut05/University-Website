@@ -1,0 +1,157 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    min-height: 500px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a9ce8",endColorstr="#8d29f1",GradientType=1);
+    color:#fff;
+    background-repeat:no-repeat;
+    background-position:center;
+	/* Additional CSS for Header Image and Gradient is included in respective page's CSS Files */
+}
+
+h1 {
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 12rem;
+}
+
+h4 {
+    font-size: 6rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+#mainMenu li {
+    display: inline;
+}
+
+a {
+    color: #fff;
+    padding: 5px 15px;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    transition: 0.3s ease;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    padding: 2rem 4rem 0rem 4rem;
+}
+
+.responsiveSplitter{
+    display: none;
+}
+
+.headingBackground {
+    background: linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -moz-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+}
+
+#navBar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index:1;
+}
+
+#mainMenu {
+    float: right;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-top: 19px;
+    padding-top: 1rem;
+}
+
+#menuBar {
+    align-content: space-around;
+    padding-left: 0px;
+}
+
+#responsiveMenu {
+    position: fixed;
+        z-index:1;
+}
+
+#mainTitle {
+    text-align: center;
+    justify-content: center;
+}
+
+#largeTitle {
+    font-size: 7rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+#subTitle {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#headerButton {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+}
+
+#headerButton a {
+    color: #fff;
+    padding: 20px 70px;
+    font-size: 1.9rem;
+    border: solid 3px #fff;
+}
+
+#defaultButton {
+    padding-top: 2rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#defaultButton a {
+    padding: 20px 70px;
+    font-size: 1.9rem;
+    border: solid 3px #fff;
+}
+
+#defaultButton a:hover {
+    color: #fff;
+    background: linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -moz-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    background: -moz-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
+    border: solid 3px #000;
+}
+
+@media (max-width:932px) {
+	#mainMenu {
+        display: none;
+    }
+	
+	.responsiveSplitter{
+        display: block
+    }
+}

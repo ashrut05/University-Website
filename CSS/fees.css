@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 3rem;
+}
+
+tr:nth-child(even) {
+    background-color: #111111;
+}
+
+#feeTable {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feeTable h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#feeTable input {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+#domesticTable {
+    display: none;
+}
+
+#internationalTable {
+    display: none;
+}
+
+
