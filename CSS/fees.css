@@ -1,12 +1,8 @@
-table {
-    width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-    line-height: 3rem;
-}
-
-tr:nth-child(even) {
-    background-color: #111111;
+header {
+	background: rgb(10,156,232);
+    background: -moz-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/feesBackground.jpg);
+    background: -webkit-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/feesBackground.jpg);
+    background: linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/feesBackground.jpg);
 }
 
 #feeTable {
@@ -14,6 +10,11 @@ tr:nth-child(even) {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#feeTable h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 #feeTable h2 {

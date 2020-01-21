@@ -1,0 +1,20 @@
+header {
+	background: rgb(10,156,232);
+    background: -moz-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/commerceBackground.jpg);
+    background: -webkit-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/commerceBackground.jpg);
+    background: linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/commerceBackground.jpg);
+}
+
+#commerceTable {
+    justify-content: center;
+}
+
+#commerceTable h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#commerceTable td {
+    padding-left: 1rem;
+}
+

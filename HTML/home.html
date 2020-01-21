@@ -25,6 +25,7 @@
         <script src="../JS/hamburger.js"></script>
         <script src="../JS/footer.js"></script>
         <script src="../JS/home.js"></script>
+		
     </head>
     
     <body>
@@ -37,7 +38,7 @@
                 <!--Top Navbar Starts-->
                 <div class="row" id="navBar">
                     <div class="col-2">
-                        <h1><a href="index.html">UNU</a></h1>
+                        <h1><a href="home.html">UNU</a></h1>
                     </div>
                     
                     <!--Navbar Menu Starts-->
@@ -81,8 +82,8 @@
                     <div class="row" id="subTitle">
                         NAAC Accredited 'A' Grade University
                     </div>
-                    <div class="row" id="headerButton">
-                        <a onclick="scrollToAbout()">Explore</a> 
+                    <div class="row headerButton">
+                        <a href="#aboutSection">Explore</a> 
                     </div>
                 </div>
             </header>
@@ -96,7 +97,7 @@
                 <div id="aboutSectionResponsive" class="row">
                     <p>Condimentum vitae sapien pellentesque habitant morbi tristique. Tempus quam pellentesque nec nam aliquam sem et tortor. Integer feugiat scelerisque varius morbi enim nunc. Urna et pharetra pharetra massa massa ultricies mi. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Dictum at tempor commodo ullamcorper a lacus.</p>
                 </div>
-                 <div class="row" id="defaultButton">
+                 <div class="row defaultButton">
                     <a href="aboutUs.html">Read More</a> 
                 </div>
             </div>
@@ -114,21 +115,71 @@
                     <div class="col">Situated<h3>3.2</h3>Kilometeres from<br>City Center</div>
                 </div>
             </div>
+			<!--Notification Div Begins (Read home.js to see what's actually happening here)-->
+			<div id="notifications" class="row"> 
+				<h2>Notif</h2>
+				<h2 class="headingBackground">ications</h2>
+				<div class="row defaultButton" id="notificationsButton">
+                    <a onclick="showNotifications()">Show &gt;&gt;</a> 
+                </div>
+				<div class="row" id="notificationInside">
+					<div class="col notificationBox">
+						<h2>General</h2>
+						<div class="notificationContent">
+							<div class="notificationDate">	
+								<span>15</span><br>
+								Jan
+							</div>
+							<p id="generalNotifications">General Notification</p>
+						</div>
+					</div>
+					<div class="w-100 responsiveSplitter"></div>
+					<div class="col notificationBox">
+						<h2>Exam</h2>
+						<div class="notificationContent">
+							<div class="notificationDate">	
+								<span>12</span><br>
+								Jan
+							</div>
+							<p id="examNotifications">Exam Notification </p>
+							<div class="col" id="normalNavigation">
+								<a class="prev" onclick='scrollNotifications("prev")'>&lt;</a>
+								<a class="next" onclick='scrollNotifications("next")'>&gt;</a>
+							</div>
+						</div>
+					</div>
+					<div class="w-100 responsiveSplitter"></div>
+					<div class="col notificationBox">
+						<h2>Events</h2>
+						<div class="notificationContent">
+							<div class="notificationDate">
+								<span>29</span><br>
+								Dec
+							</div>
+							<p id="eventsNotifications">Events Notification </p>
+							<div class="col" id="responsiveNavigation">
+							<a class="prev" onclick='scrollNotifications("prev")'>&lt;</a>
+							<a class="next" onclick='scrollNotifications("next")'>&gt;</a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
             
             <div id="departments" class="row">
                 <h2>Depart</h2>
                 <h2 class="headingBackground">ments</h2>
                 <div class="row" id="departmentInside">
                     <div class="col departmentBox">
-                       <a href="#"><img src="../Images/Departments/Science.jpg"></a>
+                       <a href="science.html"><img src="../Images/Departments/Science.jpg"></a>
                     </div>
                     <div class="w-100 responsiveSplitter"></div>
                     <div class="col departmentBox">
-                        <a href="#"><img src="../Images/Departments/Commerce.jpg"></a>
+                        <a href="commerce.html"><img src="../Images/Departments/Commerce.jpg"></a>
                     </div>
                     <div class="w-100 responsiveSplitter"></div>
                     <div class="col departmentBox">
-                        <a href="#"><img src="../Images/Departments/Humanities.jpg"></a>
+                        <a href="humanities.html"><img src="../Images/Departments/Humanities.jpg"></a>
                     </div>
                 </div>
             </div>
@@ -139,19 +190,19 @@
                 </div>
                 <div class="col-md-6">
                     <div class="gallerySections">
-                        <a href="#">
+                        <a href="media.html">
                             <img src="../Images/Gallery/GalleryImages.png">
                         </a>
                     </div>
                     
                     <div class="gallerySections">
-                        <a href="#">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                             <img src="../Images/Gallery/GalleryVideos.png">
                         </a>
                     </div>
                 
                     <div class="gallerySections">
-                        <a href="#">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                             <img src="../Images/Gallery/GalleryTour.png">
                         </a>
                     </div>
@@ -211,7 +262,3 @@
         <!--Main Body Container Ends-->
     </body>
 </html>
-
-<!--TODO Change Header Images-->
-<!-- TODO Notification Section -->    
-<!-- TODO Change UNU Header Link href -->   

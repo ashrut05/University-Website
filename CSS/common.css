@@ -36,8 +36,15 @@ h5 {
     font-size: 2rem;
 }
 
-#mainMenu li {
-    display: inline;
+table {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 3rem;
+}
+
+tr:nth-child(even) {
+    background-color: #111111;
 }
 
 a {
@@ -59,6 +66,10 @@ p {
     padding: 2rem 4rem 0rem 4rem;
 }
 
+#mainMenu li {
+    display: inline;
+}
+
 .responsiveSplitter{
     display: none;
 }
@@ -72,8 +83,8 @@ p {
 #navBar {
     position: fixed;
     width: 100%;
-    background-color: rgba(0,0,0,0.7);
-    z-index:1;
+    background-color: rgba(0,0,0,0.8);
+    z-index:2;
 }
 
 #mainMenu {
@@ -112,32 +123,32 @@ p {
     justify-content: space-around;
 }
 
-#headerButton {
+.headerButton {
     padding-top: 2rem;
     padding-bottom: 2rem;
     justify-content: space-around;
 }
 
-#headerButton a {
+.headerButton a {
     color: #fff;
     padding: 20px 70px;
     font-size: 1.9rem;
     border: solid 3px #fff;
 }
 
-#defaultButton {
+.defaultButton {
     padding-top: 2rem;
     width: 100%;
     justify-content: space-around;
 }
 
-#defaultButton a {
+.defaultButton a {
     padding: 20px 70px;
     font-size: 1.9rem;
     border: solid 3px #fff;
 }
 
-#defaultButton a:hover {
+.defaultButton a:hover {
     color: #fff;
     background: linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
     background: -webkit-linear-gradient(0deg, rgba(10,202,232,1) 0%, rgba(141,41,241,1) 100%);
