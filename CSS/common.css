@@ -2,15 +2,7 @@ body {
     font-family: "Raleway", sans-serif;
     background-color: #000;
     color: #fff;
-}
-
-header {
-    min-height: 500px;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a9ce8",endColorstr="#8d29f1",GradientType=1);
-    color:#fff;
-    background-repeat:no-repeat;
-    background-position:center;
-	/* Additional CSS for Header Image and Gradient is included in respective page's CSS Files */
+	min-width: 480px;
 }
 
 h1 {
@@ -165,4 +157,14 @@ p {
 	.responsiveSplitter{
         display: block
     }
+}
+
+@media (max-width:600px){
+	#largeTitle {
+    	font-size: 6rem;
+	}
+	
+	#subTitle {
+		font-size: 2rem;
+	}
 }

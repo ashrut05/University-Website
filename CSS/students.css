@@ -1,13 +1,13 @@
 header {
-    min-height: 500px;
     background: rgb(10,156,232);
     background: -moz-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/StudentsBackground.jpg);
     background: -webkit-linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/StudentsBackground.jpg);
     background: linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/StudentsBackground.jpg);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a9ce8",endColorstr="#8d29f1",GradientType=1);
-    color:#fff;
-    background-repeat:no-repeat;
+	display: table;
+	background-attachment: fixed;
+	min-height: 500px;
     background-position:center;
+	width: 100%;	
 }
 
 #row1, #row2 {
