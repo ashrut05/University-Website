@@ -2,7 +2,6 @@ body {
     font-family: "Raleway", sans-serif;
     background-color: #000;
     color: #fff;
-	min-width: 480px;
 }
 
 h1 {
@@ -76,20 +75,14 @@ p {
     position: fixed;
     width: 100%;
     background-color: rgba(0,0,0,0.8);
-    z-index:2;
+    z-index: 2;
 }
 
 #mainMenu {
     float: right;
     font-size: 1.3rem;
     list-style: none;
-    margin-top: 19px;
-    padding-top: 1rem;
-}
-
-#menuBar {
-    align-content: space-around;
-    padding-left: 0px;
+    padding-top: 2rem;
 }
 
 #responsiveMenu {
