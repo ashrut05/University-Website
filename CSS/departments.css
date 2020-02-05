@@ -5,7 +5,7 @@ header {
     background: linear-gradient(45deg, rgba(10,156,232,0.55) 0%, rgba(141,41,241,0.55) 100%), url(../Images/headerBackgrounds/departmentsBackground.jpg);
 	display: table;
 	background-attachment: fixed;
-	min-height: 500px;
+	height: 500px;
     background-position:center;
 	background-repeat: no-repeat;
 	width: 100%;
