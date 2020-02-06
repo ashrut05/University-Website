@@ -106,13 +106,13 @@ iframe {
 }
 
 #largeTitle {
-    font-size: 7rem;
+    font-size: 5rem;
     padding-top: 6rem;
     padding-bottom: 2rem;
 }
 
 #subTitle {
-    font-size: 3rem;
+    font-size: 2rem;
     padding-bottom: 2rem;
     width: 100%;
     justify-content: space-around;
@@ -170,17 +170,17 @@ iframe {
 	}
 	
 	#largeTitle {
-		font-size: 5rem;
+		font-size: 3rem;
 	}
 }
 
 @media (max-width:600px){
 	#largeTitle {
-    	font-size: 4rem;
+    	font-size: 2rem;
 	}
 	
 	#subTitle {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	
 	iframe {
