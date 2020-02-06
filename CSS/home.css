@@ -162,16 +162,12 @@ header {
     margin-right: 10%;
 }
 
-#galleryInside {
-    width: 100%;
-}
-
 .galleryBox {
     padding-bottom: 2rem;
 }
 
 .galleryBox img {
-    width: 100%;
+    width: 100px;
     height: 100%;
 	min-width: 250px;
 }
@@ -183,8 +179,8 @@ header {
 
 @media (max-width:1832px) {
     .gallerySections {
-    width: 180px;
-    height: 400px; 
+    	width: 180px;
+    	height: 400px; 
     }
 }
 
@@ -223,6 +219,13 @@ header {
     #gallery {
         display: none;
     }
+	
+	.galleryBox {
+		position: relative;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
 }
 
 @media (max-width:932px) {
@@ -235,8 +238,9 @@ header {
     }
     
     .galleryBox img{
-        width: 50%;
+		align-content: center;
+		justify-content: center;
+        width: 50px;
         height: 100%;
-        margin-left: 22%; /* Have no idea why this is required */
     }
 }

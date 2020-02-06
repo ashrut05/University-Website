@@ -24,12 +24,15 @@ header {
 .departmentBox {
     padding-bottom: 3rem;
     padding-top: 3rem;
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .departmentBox img{
-    width: 100%;
+    width: 300px;
     height: 100%;
-	min-width: 250px;
 }
 
 .departmentBox img:hover{
@@ -39,8 +42,14 @@ header {
 
 @media (max-width:932px) {   
     .departmentBox img{
-        width: 50%;
+        width: 250px;
         height: 100%;
-        margin-left: 22%; /* To center */
     }
+	
+	.departmentBox {
+		position: relative;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
 }

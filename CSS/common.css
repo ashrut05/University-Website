@@ -57,6 +57,11 @@ p {
     padding: 2rem 4rem 0rem 4rem;
 }
 
+iframe {
+	width: 500px; 
+	height: 180px;
+}
+
 #mainMenu li {
     display: inline;
 }
@@ -172,5 +177,10 @@ p {
 	
 	#subTitle {
 		font-size: 2rem;
+	}
+	
+	iframe {
+		width: 300px;
+		height: 120px;
 	}
 }
