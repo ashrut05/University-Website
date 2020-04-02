@@ -243,4 +243,10 @@ header {
         width: 50px;
         height: 100%;
     }
+	
+	#aboutSection {
+    	padding-top: 4rem;
+    	margin-left: 2%;
+		margin-right: 2%;
+	}
 }
