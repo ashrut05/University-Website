@@ -19,13 +19,12 @@ Ashrut Sharma 2019
 * [Technologies](#technologies)
 
 ## About this Project
-This project is a mock website for a mock university built with HTML, CSS, Bootstrap and javaScript.
+This project is a mock website for a mock university built with HTML, CSS and javaScript.
 
 ## Goal for this Project
-The goal of this project was to build a modern, responsive website for a mock university and expand my skills in HTML and Bootstrap.
+The goal of this project was to build a modern, responsive website for a mock university and expand my skills in HTML and javaScript.
 
 ## Technologies
 * HTML
 * CSS
 * javaScript
-* Bootstrap
